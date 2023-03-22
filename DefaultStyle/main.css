@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: white;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;
+    z-index: 1000;
+    height: 70px;
+    width: 100%;
+    background: rgba(55, 55, 55, 0.5);
+    backdrop-filter: blur(25px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-left-area{
+    width: 30%;
+    margin: 5px 10px 5px 25px;
+    /* border: solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.nav-left-area img{
+    display: inline-block;
+    /* border: solid red; */
+}
+.nav-right-area{
+    /* border: solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.nav-right-area a, .nav-right-area button{
+    margin: 0 10px;
+}
+.nav-right-area button{
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    text-decoration: none;
+    color: #F6A139 !important;
+}
+.menu a:visited{
+    text-decoration: none;
+    color: #F6A139 !important;
+}
+.menu .choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F6A139 !important;
+}
+.menu .selector{
+    width: 0;
+    height: 5px;
+    margin: 0;
+    background-color: #F6A139;
+    box-shadow: 0px -4px 20px #FFC107;
+    transition: .5s;
+}
+
+.is-activated{
+    text-shadow: 0 0 20px yellow;
+    transition: .5s;
+}
+.isnt-activated
+{
+    text-shadow: none;
+    transition: .5s;
+}
+.isnt-activated:hover{
+    text-shadow: 0 0 20px yellow;
+
+}
+
+
+.custom-body2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    background-image: url('../Assets/Logo/UserLogo.svg');
+    background-size: cover;
+}
+.profile-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 31px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+margin-top: 20px;
+}
+.mail{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #000000;
+
+}
+.phone-num{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+.money-area{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.money-area div{
+    display: inline-block;
+}
+.frst{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.scnd{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.line-create{
+    border: solid black;
+    width: 80%;
+}
+.title-2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.card-img{
+    height: 150px;
+    width: 50%;
+    background-image: url('../Assets/Picture/vecteezy_credit-card-clipart-design-illustration_9398850_913.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a, a:hover{
+    text-decoration: none !important;
+color: #000000 !important;
+
+}
+.del-acc-btn{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E36C64;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000 !important;
+
+text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.lg-out{
+    background-color: #D3C695;
+}
+.custom-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.language-area{
+    margin: 10px 0 10px 0;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.language-area-2 img{
+    width: 40px;
+    margin-right: 20px;
+}
+.language-area-2{
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 5px 0 5px 0;
+    width: 70%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    transition: .5s ;
+}
+.language-area-2:hover{
+    background-color: white;
+}
+.main-TL{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: left;
+
+color: #000000;
+}
+.to-Change{
+    border-radius: 5px;
+    width: 25%;
+    height: 100%;
+    background-color: #D9D9D9;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: auto;
+color: #000000;
+}
+.offcanvas{
+    background: rgba(216, 216, 216, 0.75) !important;
+backdrop-filter: blur(5px) !important;
+}
