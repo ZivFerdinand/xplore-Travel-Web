@@ -8,16 +8,299 @@
     
     <link data-n-head="true" rel="icon" type="image/x-icon" href="../Assets/Logo/xplore_Logo.svg">
     <link rel="stylesheet" href="../DefaultStyle/main.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
     <section>
         <nav>
-            
+            <div class="nav-left-area">
+                <img src="../Assets/Logo/xplore_Logo_2.svg">
+                <div class="menu">
+                    <div class="choices">
+                        <div >
+                            <a id="home" class="isnt-activated" href="">
+                                Home
+                            </a>
+                        </div>
+                        <div >
+                            <a id="explore" class="isnt-activated" href="">
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+                    <div id="selector" class="selector">
+
+                    </div>
+                </div>
+            </div>
+            <div class="nav-right-area">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight">
+                    <img src="../Assets/Logo/UserLogo.svg">
+                </button>
+                <a>
+                    <img src="../Assets/Logo/booking_logo.svg">
+                </a>
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <img src="../Assets/Logo/burger_menu.svg">
+                </button>                
+            </div>
         </nav>
     </section>
-    
+
+    <div class="main-area">
+        <div class="left-area-pay">
+            <div class="payment-collab">
+                <img src="../Assets/Logo/mastercard.svg">
+                <img src="../Assets/Logo/visa.svg">
+                <div class="vert-line">
+
+                </div>
+                <img src="../Assets/Logo/xplore_Logo_2.svg">
+            </div>
+            <div class="card-number">
+                <div>
+                    Card Number
+                </div>
+                <div class="input">
+                    <img src="../Assets/Logo/mastercard.svg">
+                    <input type="number" placeholder="2412 • 5262 • 1456 • 2020">
+                </div>
+            </div>
+            <div class="input-cvv">
+                <div class="desc-area-1">
+                    <div class="top">
+                        CVV Number
+                    </div>
+                    <div class="bottom">
+                        3 or 4 digits number on the card
+                    </div>
+                </div>
+                <div class="input-area-1">
+                    <input type="number">
+                    <img src="../Assets/Logo/password.svg">
+                </div>
+            </div>
+            <div class="input-cvv">
+                <div class="desc-area-1">
+                    <div class="top">
+                        Expiry Date
+                    </div>
+                    <div class="bottom">
+                        Registration Date on the card
+                    </div>
+                </div>
+                <div class="input-area-1 tag">
+                    <input type="number">
+                    <div>/</div>
+                    <input type="number">
+                </div>
+            </div>
+            <div class="input-cvv">
+                <div class="desc-area-1">
+                    <div class="top">
+                        Password
+                    </div>
+                    <div class="bottom">
+                        xplore Account Password
+                    </div>
+                </div>
+                <div class="input-area-1 password">
+                    <input type="password">
+                    <img src="../Assets/Logo/password.svg">
+                </div>
+            </div>
+            <div class="pay-btn">
+                Pay Now
+            </div>
+        </div>
+        <div class="right-area-pay">
+            <img class="main-pic-1" src="../Assets/Picture/MBS_pic.svg">
+            <div class="divider">
+                <div class="div-left">
+                    Hotel
+                </div>
+                <div class="div-right">
+                    Marina Bay Sands
+                </div>
+            </div>
+            <div class="divider">
+                <div class="div-left">
+                    Type
+                </div>
+                <div class="div-right">
+                    Suite Room
+                </div>
+            </div>
+            <div class="divider">
+                <div class="div-left">
+                    Check In
+                </div>
+                <div class="div-right">
+                    16 Apr 2023
+                </div>
+            </div>
+            <div class="divider">
+                <div class="div-left">
+                    Check Out
+                </div>
+                <div class="div-right">
+                    18 Apr 2023
+                </div>
+            </div>
+
+            <div style="height: 20px"></div>
+
+            <div class="divider">
+                <div class="div-left">
+                    Total
+                </div>
+                <div class="div-right money">
+                    S$ 1070.50
+                </div>
+            </div>
+            <div class="divider">
+                <div class="div-left">
+                    Tax
+                </div>
+                <div class="div-right money">
+                    S$ 10.75
+                </div>
+            </div>
+            <div class="final-indc">
+                You have to pay
+            </div>
+
+            <div class="sub-total">
+                <div class="money-area">
+                    <div class="big">
+                        1081
+                    </div>
+                    <div class="small">
+                        .25
+                    </div>
+                    <div class="med">
+                        SGD
+                    </div>
+                </div>
+                <img src="../Assets/Logo/invoice.svg">
+
+            </div>
+        </div>
+    </div>
 
 
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body custom-body">
+            <div class="language-area">
+                <img src="../Assets/Logo/language.svg">
+                <div class="main-TL">Language</div>
+                <div class="to-Change">EN</div>
+            </div>
+            <div class="language-area">
+                <img src="../Assets/Logo/currency.svg">
+                <div class="main-TL">Currency</div>
+                <div class="to-Change">SGD</div>
+            </div>
+            <div class="line-create">
+
+            </div>
+
+            <div class="language-area-2">
+                <img src="../Assets/Logo/home.svg">
+                <div class="main-TL">Home</div>
+            </div>
+            <div class="language-area-2">
+                <img src="../Assets/Logo/explore.svg">
+                <div class="main-TL">Explore</div>
+            </div>
+            <div class="language-area-2">
+                <img src="../Assets/Logo/booking_logo.svg">
+                <div class="main-TL">My Bookings</div>
+            </div>
+            <div class="language-area-2">
+                <img src="../Assets/Logo/book.svg">
+                <div class="main-TL">How to Book</div>
+            </div>
+            <div class="language-area-2">
+                <img src="../Assets/Logo/saved.svg">
+                <div class="main-TL">Saved</div>
+            </div>
+            <div class="language-area-2">
+                <img src="../Assets/Logo/newslett.png">
+                <div class="main-TL">Newsletter Sub</div>
+            </div>
+            <div class="language-area-2">
+                <img src="../Assets/Logo/help.svg">
+                <div class="main-TL">Help</div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body custom-body2">
+            <div class="profile">
+            </div>
+            <div class="profile-name">
+                Zeas Traveler
+            </div>
+            <div class="mail">
+                zeas.trvlr@trcomp.com
+            </div>
+            <div class="phone-num">
+                <img src="../Assets/Logo/flag.svg">
+                <div>+62 853 8612 6199</div>
+            </div>
+            <div class="money-area">
+                <div class="frst">
+                    Your Balance
+                </div>
+                <div class="scnd">
+                    S$17,800.23
+                </div>
+            </div>
+            <div class="money-area">
+                <div class="frst">
+                    Your Points
+                </div>
+                <div class="scnd">
+                    25,000
+                </div>
+            </div>
+            <div class="line-create">
+
+            </div>
+            <div class="title-2">
+                Your Cards
+            </div>
+            <div class="card-img">
+
+            </div>
+
+            <div class="del-acc-btn">
+                <a href="#">
+                    Delete Account
+                </a>
+            </div>
+            <div class="del-acc-btn lg-out">
+                <a href="#">
+                    Log Out
+                </a>
+            </div>
+        </div>
+    </div>
     <script src="../DefaultStyle/main.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
 </body>
 </html>

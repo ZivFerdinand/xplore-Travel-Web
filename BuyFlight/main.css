@@ -1,0 +1,304 @@
+.main-area{
+    width: 100%;
+    height: 100vh;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.left-area-pay
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    background: linear-gradient(180deg, #F7A202 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.payment-collab{
+    width: 60%;
+    height: fit-content;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vert-line{
+    height: 100%;
+    border: solid black;
+}
+.card-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 80%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+.input img{
+    margin: 0 20px;
+    height: 70%;
+}
+.input input{
+    font-size: 25px;
+    height: 80%;
+    width: 80%;
+    padding: 0 20px;
+    background: #C7C7C7;
+    border-radius: 10px;
+    border: none;
+}
+.input-cvv{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 80%;
+}
+.desc-area-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.top{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.bottom{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #717171;
+}
+
+.input-area-1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.input-area-1 input{
+    
+    font-size: 25px;
+    height: 100%;
+    width: 50%;
+    padding: 0 20px;
+    background: #C7C7C7;
+    border-radius: 10px;
+    border: none;
+}
+.input-area-1 img{
+    margin: 0 20px;
+}
+.password input{
+    width: 70%;
+}
+
+.tag div{
+    font-size: 20px;
+    margin: 0 12.5px;
+}
+.tag input{
+    width: 30%;
+}
+.pay-btn{
+    position: absolute;
+    /* margin: auto 0; */
+    margin-top: 50px;
+    height: 80px;background: #F6A139;
+border-radius: 15px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+bottom: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+transition: .5s;
+}
+.pay-btn:hover{
+    background: #b6701a;
+}
+input{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+color: #676767;
+}
+.right-area-pay{
+    border-radius: 20px;
+    width: 25%;
+    margin-top: 100px;
+    margin: 100px 0 2.5% 2.5%;
+    height: calc(100vh - 100px);
+background: #ECECEC;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 30px;
+    margin: 20px 0;
+}
+.div-left{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #575757;
+}
+.div-right{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.money{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.final-indc{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: start;
+text-align: left;
+width: 50%;
+margin-right: 30%;
+
+
+margin-top: 20px;
+margin-bottom: 20px;
+color: #494949;
+}
+.sub-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 80%;
+}
+.money-area{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+}
+.big{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #F7A202;}
+.small{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #F7A202;
+}
+.main-pic-1{
+    height: 150px;
+    object-position: center;
+    object-fit: fill;
+}
+
+.med{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 20px;
+
+color: #F7A202;
+margin-left: 10px;
+}

@@ -63,22 +63,20 @@
 
     color: #585858;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 29px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #585858;
+    color: #585858;
 }
 .type-indc img{
     display: inline-block;
     height: 50%;
-    /* width: 5%; */
     margin-right: 5%;
-    /* margin: 15px; */
 }
 .destination-indc{
     height: 70%;
@@ -87,21 +85,19 @@ color: #585858;
     flex-direction: column;
 }
 .destination-indc div{
-    /* margin: auto; */
     padding: 0 0 0 10%;
     margin: auto 0;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
 
-display: flex;
-align-items: center;
-text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 }
 .mid-ar{
     width: 20%;
@@ -119,13 +115,13 @@ color: #000000;
     flex-direction: column;
     justify-content: center;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 29px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .destination-details{
     height: 70%;
@@ -203,16 +199,16 @@ text-align: center;
 }
 .ref-resc-area .title{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
 
-color: #000000;
+    color: #000000;
 }
 .ref-resc-area .buttons{
     display: flex;
@@ -233,15 +229,15 @@ color: #000000;
 }
 .button-1 div{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 47px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 
 }
 .button-1 img{

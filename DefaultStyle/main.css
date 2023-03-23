@@ -23,7 +23,6 @@ nav{
 .nav-left-area{
     width: 30%;
     margin: 5px 10px 5px 25px;
-    /* border: solid green; */
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -31,10 +30,8 @@ nav{
 }
 .nav-left-area img{
     display: inline-block;
-    /* border: solid red; */
 }
 .nav-right-area{
-    /* border: solid black; */
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -116,31 +113,30 @@ nav{
 }
 .profile-name{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 31px;
-line-height: 36px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #000000;
-margin-top: 20px;
+    color: #000000;
+    margin-top: 20px;
 }
 .mail{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
 
-display: flex;
-align-items: center;
-text-align: center;
-text-decoration-line: underline;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
 
-color: #000000;
+    color: #000000;
 
 }
 .phone-num{
@@ -149,17 +145,16 @@ color: #000000;
     flex-direction: row;
     justify-content: space-evenly;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
 
-display: flex;
-align-items: center;
-text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
 
 }
 .money-area{
@@ -173,32 +168,30 @@ color: rgba(0, 0, 0, 0.8);
 }
 .frst{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
 
-display: flex;
-align-items: center;
-text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 
 }
 .scnd{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
 
-display: flex;
-align-items: center;
-text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 
 }
 .line-create{
@@ -207,15 +200,15 @@ color: #000000;
 }
 .title-2{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 }
 .card-img{
     height: 150px;
@@ -228,7 +221,7 @@ color: #000000;
 
 a, a:hover{
     text-decoration: none !important;
-color: #000000 !important;
+    color: #000000 !important;
 
 }
 .del-acc-btn{
@@ -243,17 +236,17 @@ color: #000000 !important;
     align-items: center;
 
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #000000 !important;
+    color: #000000 !important;
 
-text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 .lg-out{
     background-color: #D3C695;
@@ -294,15 +287,15 @@ text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 .main-TL{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
 
-color: #000000;
+    color: #000000;
 }
 .to-Change{
     border-radius: 5px;
@@ -310,18 +303,18 @@ color: #000000;
     height: 100%;
     background-color: #D9D9D9;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 30px;
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-padding: auto;
-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    color: #000000;
 }
 .offcanvas{
     background: rgba(216, 216, 216, 0.75) !important;
-backdrop-filter: blur(5px) !important;
+    backdrop-filter: blur(5px) !important;
 }
