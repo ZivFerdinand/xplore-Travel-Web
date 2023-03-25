@@ -259,12 +259,16 @@ a, a:hover{
     background-color: #D3C695;
 }
 .custom-body{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
+    height: fit-content;
 }
 .language-area{
+    /* height: 75px; */
     margin: 10px 0 10px 0;
     width: 70%;
     display: flex;
@@ -325,9 +329,6 @@ a, a:hover{
     background: rgba(216, 216, 216, 0.75) !important;
     backdrop-filter: blur(5px) !important;
 }
-#offcanvasRight2{
-    min-height: 650px;
-}
 @media only screen and (max-width: 1200px){
     .choices{
         font-size: 20px !important;
@@ -381,5 +382,38 @@ a, a:hover{
     }
     .input-area-1 input{
         width: 100%;
+    }
+}
+
+
+@media only screen and (max-height: 650px)
+{
+    .line-create{
+        display: none;
+    }
+}
+@media only screen and (max-height: 585px)
+{
+    .title-2, .card-img{
+        display: none;
+    }
+}
+@media only screen and (max-height: 520px)
+{
+    .hide{
+        display: none;
+    }
+}
+@media only screen and (max-height: 420px)
+{
+    .mail, .phone-num{
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 400px)
+{
+    .profile{
+        display: none;
     }
 }
