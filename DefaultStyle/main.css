@@ -18,20 +18,23 @@ nav{
     backdrop-filter: blur(25px);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 .nav-left-area{
     width: 30%;
+    float: left;
     margin: 5px 10px 5px 25px;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: start;
     align-items: center;
 }
 .nav-left-area img{
-    display: inline-block;
+    float: left;
+    /* display: inline-block; */
 }
 .nav-right-area{
+    float: right;
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -224,6 +227,10 @@ a, a:hover{
     color: #000000 !important;
 
 }
+.btn{
+    /* margin: auto !important; */
+    margin-bottom: 2.5px !important;
+}
 .del-acc-btn{
     width: 80%;
     height: 50px;
@@ -317,4 +324,60 @@ a, a:hover{
 .offcanvas{
     background: rgba(216, 216, 216, 0.75) !important;
     backdrop-filter: blur(5px) !important;
+}
+
+@media only screen and (max-width: 1200px){
+    .choices{
+        font-size: 20px !important;
+    }
+    .selector{
+        display: none;
+    }
+}
+@media only screen and (max-width: 990px){
+    .choices{
+        display: none !important;
+    }
+    .nav-left-area{
+        width: 50%;
+    }
+    .nav-right-area{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .nav-left-area{
+        margin-left: 10px;
+        width: 25%;
+    }
+    .nav-left-area img{
+        /* scale: 0.75; */
+        object-fit: cover !important;
+        width: 100%;
+    }
+     .nav-right-area{
+        margin-right: 0;
+        width: 75%;
+        
+        /* scale: 0.75; */
+        /* right: 0; */
+    }
+    
+    nav{
+        justify-content: space-evenly !important;
+    }
+    
+    /* .nav-right-area button, .nav-right-area a{
+        width: calc(100%/3);
+        align-items: center;
+    } */
+}
+
+@media only screen and (max-width: 400px){
+    .input-area-1 img{
+        display: none;
+    }
+    .input-area-1 input{
+        width: 100%;
+    }
 }

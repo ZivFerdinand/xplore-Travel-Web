@@ -1,7 +1,7 @@
 .main-area{
     width: 100%;
     height: 100vh;
-    min-height: 800px;
+    min-height: 800px !important;
     display: flex;
     flex-direction: row;
     
@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     width: 70%;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(180deg, #F7A202 0%, rgba(217, 217, 217, 0) 100%);
 }
 
@@ -102,9 +102,7 @@ font-size: 21px;
 line-height: 25px;
 /* identical to box height */
 
-display: flex;
-align-items: center;
-text-align: center;
+text-align: left;
 
 color: #717171;
 }
@@ -113,7 +111,7 @@ color: #717171;
 {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: right;
     align-items: center;
     height: 100%;
     width: 50%;
@@ -122,7 +120,7 @@ color: #717171;
     
     font-size: 25px;
     height: 100%;
-    width: 50%;
+    width: 75%;
     padding: 0 20px;
     background: #C7C7C7;
     border-radius: 10px;
@@ -130,6 +128,7 @@ color: #717171;
 }
 .input-area-1 img{
     margin: 0 20px;
+    width: fit-content;
 }
 .password input{
     width: 70%;
@@ -184,7 +183,7 @@ color: #676767;
     width: 25%;
     margin-top: 100px;
     margin: 100px 0 2.5% 2.5%;
-    height: calc(100vh - 100px);
+    height: calc(100% - 100px);
 background: #ECECEC;
 display: flex;
 flex-direction: column;
@@ -216,7 +215,7 @@ color: #575757;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
+font-size: 20px;
 line-height: 29px;
 display: flex;
 align-items: center;
@@ -261,6 +260,10 @@ color: #494949;
     height: 70px;
     width: 80%;
 }
+.sub-total img{
+    width: 20%;
+    margin-left: 10px;
+}
 .money-area-1{
     display: flex;
     width: 50%;
@@ -288,6 +291,7 @@ color: #F7A202;
 }
 .main-pic-1{
     height: 150px;
+    width: 90%;
     object-position: center;
     object-fit: fill;
 }
@@ -301,4 +305,62 @@ line-height: 20px;
 
 color: #F7A202;
 margin-left: 10px;
+}
+
+@media only screen and (max-width: 1250px)
+{
+    .div-right{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1070px)
+{
+    .right-area-pay{
+        display: none;
+    }
+    .left-area-pay{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    .payment-collab{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 750px)
+{
+    .bottom{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 580px)
+{
+    .bottom{
+        font-size: 16px;
+    }
+    .top{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 550px)
+{
+    .payment-collab{
+        scale: 0.75;
+        width: 100%;
+    }
+    .input-area-1{
+        /* scale: 0.75; */
+    }
+    .input-cvv, .card-number{
+        width: 90%;
+        justify-content: start;
+    }
+}
+@media only screen and (max-width: 420px)
+{
+    .payment-collab{
+        scale: 0.5;
+        width: 150%;
+    }
 }

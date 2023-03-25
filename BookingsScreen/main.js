@@ -16,6 +16,5 @@ home.addEventListener("mouseleave", resetPos);
 exp.addEventListener("mouseenter", () => {
 	selector.style.marginLeft = "52.5%";
 	selector.style.width = "33.5%";
-	resetClass();
 });
 exp.addEventListener("mouseleave", resetPos);
