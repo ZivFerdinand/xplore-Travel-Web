@@ -143,7 +143,7 @@ nav{
 
 }
 .phone-num{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -325,7 +325,9 @@ a, a:hover{
     background: rgba(216, 216, 216, 0.75) !important;
     backdrop-filter: blur(5px) !important;
 }
-
+#offcanvasRight2{
+    min-height: 650px;
+}
 @media only screen and (max-width: 1200px){
     .choices{
         font-size: 20px !important;
