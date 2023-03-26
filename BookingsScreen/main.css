@@ -1,5 +1,6 @@
 .active-ticket-head{
     height: 150px;
+    width: 100vw;
     position: relative;
     background-image: url('../Assets/BG/photo-1514519334989-3d5c8b1a9f91.jpeg');
     background-repeat: no-repeat;
@@ -10,10 +11,10 @@
     position: absolute;
     height: 40px;
     bottom: 20px;
-    width: 20vw;
+    width: 100vw;
     text-align: center;
     /* border: solid black; */
-    left: calc(40vw);
+    /* left: calc(40vw); */
     
     font-family: 'Roboto';
     font-style: normal;
@@ -128,10 +129,14 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    align-items: center;
     padding-bottom: 5%;
 }
 .destination-details div{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 5px auto;
 }
 .right-ar{
@@ -218,7 +223,7 @@
 }
 .buttons .button-1
 {
-    width: 35%;
+    width: 45%;
     border-radius: 10px;
     height: 80px;
     display: flex;
@@ -232,16 +237,16 @@
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 47px;
+    /* line-height: 47px; */
     display: flex;
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #000000; 
 
 }
 .button-1 img{
-    height: 80%;
+    width: 20%;
 }
 .color-change-1{
     background-color: #8AEA72;
@@ -259,4 +264,114 @@
 .color-change-2:hover{
     background-color: #c09a3c;
 
+}
+.replacer{
+    display: none;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+}
+.replacer .destination-indc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.replacer .destination-indc img{
+    height: 50%;
+    margin-right: 15px;
+}
+.replacer .destination-indc div{
+    width: fit-content;
+    padding: 0 0 0 0 !important;
+    /* margin: 0 auto; */
+    height: 100%;
+}
+.replacer .destination-details{
+    height: 60%;
+    margin: none;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1406px) {
+    .button-1 div{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 1344px) {
+    .right-ar{
+        display: none;
+    }
+    .mid-ar{
+        width: 50%;
+    }
+    .left-ar{
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (max-width: 1050px) {
+    .destination-indc div{
+        font-size: 30px;
+    }
+    .type-indc, .details{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .button-1 img{
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 788px) {
+    .left-ar, .mid-ar, .right-ar{
+        display: none;
+    }
+    .replacer{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 667px) {
+    .button-1 div{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .active-ticket-head div{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    .replacer .destination-indc div{
+        font-size: 20px !important;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .button-1 div, .button-1 img{
+        display: inline-block;
+        /* height: 50%; */
+    }
+    .button-1 div{
+        height: 75%;
+        line-height: normal;
+    }
+    .button-1 img{
+        height: 25%;
+        margin-bottom: 10px;
+    }
+    .button-1{
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .button-1 div{
+        font-size: 16px;
+    }
 }
