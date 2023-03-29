@@ -254,10 +254,21 @@ a, a:hover{
     color: #000000 !important;
 
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    transition: .5s;
+}
+.del-acc-btn:hover{
+    background-color: #792d27;
+
 }
 .lg-out{
+    transition: .5s;
     background-color: #D3C695;
 }
+.lg-out:hover{
+    background-color: #7c7043;
+
+}
+
 .custom-body{
     margin-top: 10px;
     display: flex;
@@ -325,9 +336,16 @@ a, a:hover{
     padding: auto;
     color: #000000;
 }
+.to-Change:hover{
+    cursor: pointer;
+}
 .offcanvas{
     background: rgba(216, 216, 216, 0.75) !important;
     backdrop-filter: blur(5px) !important;
+}
+
+.language-area-2:hover{
+    cursor: pointer;
 }
 @media only screen and (max-width: 1200px){
     .choices{

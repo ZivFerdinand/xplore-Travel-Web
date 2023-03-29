@@ -168,6 +168,7 @@ color: #FFFFFF;
 transition: .5s;
 }
 .pay-btn:hover{
+    cursor: pointer;
     background: #b6701a;
 }
 input{
