@@ -57,7 +57,7 @@ nav{
     text-decoration: none;
     color: #F6A139 !important;
 }
-.menu a:visited{
+.menu a:visited, .menu a:hover{
     text-decoration: none;
     color: #F6A139 !important;
 }
