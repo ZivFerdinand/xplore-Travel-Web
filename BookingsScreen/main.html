@@ -19,12 +19,12 @@
                 <div class="menu">
                     <div class="choices">
                         <div >
-                            <a id="home" class="is-activated" href="">
+                            <a id="home" class="isnt-activated" href="index.html">
                                 Home
                             </a>
                         </div>
                         <div >
-                            <a id="explore" class="isnt-activated" href="">
+                            <a id="explore" class="isnt-activated" href="../ExploreScreen/main.html">
                                 Explore
                             </a>
                         </div>
@@ -38,7 +38,7 @@
                 <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight">
                     <img src="../Assets/Logo/UserLogo.svg">
                 </button>
-                <a>
+                <a href="../BookingsScreen/main.html">
                     <img src="../Assets/Logo/booking_logo.svg">
                 </a>
                 <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -59,6 +59,23 @@
     
     <div class="active-ticket-list">
         <div class="ticket-li">
+            <div class="replacer">
+                <div class="destination-indc">
+                    
+                    <img src="../Assets/Logo/plane_logo.png">
+                    <div>
+                        Jakarta &#8594 Singapore
+                    </div>
+                </div>
+                <div class="destination-details">
+                    <div>
+                        Sat, 15 Apr 2023 • 13:25
+                    </div>
+                    <div>
+                        Citilink • Soekarno Hatta Intl.
+                    </div>
+                </div>
+            </div>
             <div class="left-ar">
                 <div class="type-indc">
                     <img src="../Assets/Logo/plane_logo.png">
@@ -98,6 +115,23 @@
         </div>
         
         <div class="ticket-li">
+            <div class="replacer">
+                <div class="destination-indc">
+                    
+                    <img src="../Assets/Logo/plane_logo.png">
+                    <div>
+                        Batam &#8594 Sydney
+                    </div>
+                </div>
+                <div class="destination-details">
+                    <div>
+                        Thu, 08 Jun 2023 • 15:45
+                    </div>
+                    <div>
+                        Lion Air • Hang Nadim Intl.
+                    </div>
+                </div>
+            </div>
             <div class="left-ar">
                 <div class="type-indc">
                     <img src="../Assets/Logo/plane_logo.png">
@@ -132,6 +166,22 @@
         </div>
 
         <div class="ticket-li">
+            <div class="replacer">
+                <div class="destination-indc">
+                    <img src="../Assets/Logo/hotel.svg">
+                    <div>
+                        Marina Bay Sands
+                    </div>
+                </div>
+                <div class="destination-details">
+                    <div>
+                        Sat, 15 Apr 2023 • 17:00
+                    </div>
+                    <div>
+                        Marina, Singapore
+                    </div>
+                </div>
+            </div>
             <div class="left-ar">
                 <div class="type-indc">
                     <img src="../Assets/Logo/hotel.svg">
@@ -190,12 +240,12 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body custom-body">
-            <div class="language-area">
+            <div class="language-area hide">
                 <img src="../Assets/Logo/language.svg">
                 <div class="main-TL">Language</div>
                 <div class="to-Change">EN</div>
             </div>
-            <div class="language-area">
+            <div class="language-area hide">
                 <img src="../Assets/Logo/currency.svg">
                 <div class="main-TL">Currency</div>
                 <div class="to-Change">SGD</div>
@@ -204,34 +254,34 @@
 
             </div>
 
-            <div class="language-area-2">
+            <a class="language-area-2" href="index.html">
                 <img src="../Assets/Logo/home.svg">
                 <div class="main-TL">Home</div>
-            </div>
-            <div class="language-area-2">
+            </a>
+            <a class="language-area-2" href="../ExploreScreen/main.html">
                 <img src="../Assets/Logo/explore.svg">
                 <div class="main-TL">Explore</div>
-            </div>
-            <div class="language-area-2">
+            </a>
+            <a class="language-area-2" href="../BookingsScreen/main.html">
                 <img src="../Assets/Logo/booking_logo.svg">
                 <div class="main-TL">My Bookings</div>
-            </div>
-            <div class="language-area-2">
+            </a>
+            <div class="language-area-2 hide">
                 <img src="../Assets/Logo/book.svg">
                 <div class="main-TL">How to Book</div>
             </div>
-            <div class="language-area-2">
+            <div class="language-area-2 hide">
                 <img src="../Assets/Logo/saved.svg">
                 <div class="main-TL">Saved</div>
             </div>
-            <div class="language-area-2">
+            <div class="language-area-2 hide">
                 <img src="../Assets/Logo/newslett.png">
                 <div class="main-TL">Newsletter Sub</div>
             </div>
-            <div class="language-area-2">
+            <a class="language-area-2 hide" href="../HelpScreen/main.html">
                 <img src="../Assets/Logo/help.svg">
                 <div class="main-TL">Help</div>
-            </div>
+            </a>
         </div>
     </div>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
@@ -283,7 +333,7 @@
                 </a>
             </div>
             <div class="del-acc-btn lg-out">
-                <a href="#">
+                <a href="../LogIn/main.html">
                     Log Out
                 </a>
             </div>
