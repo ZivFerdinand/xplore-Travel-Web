@@ -8,6 +8,7 @@ body, html{
     width: 100vw;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 nav{
     position: fixed;
@@ -347,6 +348,87 @@ a, a:hover{
 .language-area-2:hover{
     cursor: pointer;
 }
+
+/* Footer */
+.footer{
+    background-image: url(../Assets/BG/footerBG.png);
+    padding-top: 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.innerFooter{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downloadText{
+    color: white;
+    font-size: 25px;
+}
+
+.downloadImg{
+    opacity: 0.6;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.downloadImg:hover{
+    opacity: 1;
+    transition: opacity ease 0.3s;
+}
+
+.footerMenu{
+    width: 200px;
+    padding: 0;
+    color: white;
+}
+
+.footerMenu > ul:hover{
+    font-size: 18px;
+    text-decoration: underline;
+    color: black;
+}
+
+.socmed{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socmedImg{
+    height: 40px;
+}
+
+.socmedImg:hover{
+    border: solid white 2px;
+    height: 45px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    height: 50px;
+    border-top: solid white 4px;
+    text-align: center;
+    color: white;
+}
+
 @media only screen and (max-width: 1200px){
     .choices{
         font-size: 20px !important;
