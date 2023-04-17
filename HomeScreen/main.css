@@ -399,9 +399,18 @@
     margin-bottom: -3vw;
 }
 
+.arrowJmb3{
+    width: 200px;
+}
+
 .arrowLR{
     margin: 0px 1vw;
     cursor: pointer;
+}
+
+.arrowLR:hover{
+    height: 55px;
+    transition: all ease 0.3s;
 }
 
 .descBox{
