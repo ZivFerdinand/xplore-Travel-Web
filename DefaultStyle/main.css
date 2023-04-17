@@ -256,9 +256,17 @@ a{
     text-align: center;
 
     color: #000000 !important;
-
+    text-decoration: none !important;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     transition: .5s;
+}
+.del-acc-btn a, .del-acc-btn a:visited {
+    color: black;
+    text-decoration: none !important;
+}
+.del-acc-btn:visited{
+    
+    text-decoration: none !important;
 }
 .del-acc-btn:hover{
     background-color: #792d27;
@@ -279,7 +287,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-y: scroll;
+    overflow-y: hidden;
     height: fit-content;
 }
 .language-area{
@@ -306,6 +314,7 @@ a{
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    text-decoration: none !important;
     transition: .5s ;
 }
 .language-area-2:hover{
@@ -320,8 +329,12 @@ a{
     display: flex;
     align-items: center;
     text-align: left;
+    text-decoration: none !important;
 
     color: #000000;
+}
+.main-TL:visited{
+    text-decoration: none !important;
 }
 .to-Change{
     border-radius: 5px;
@@ -398,6 +411,7 @@ a{
 }
 
 a{
+    transition: .3s;
     color: white;
 }
 
