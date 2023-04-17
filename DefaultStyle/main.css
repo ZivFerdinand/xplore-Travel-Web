@@ -223,14 +223,17 @@ nav{
     background-position: center;
 }
 
-a, a:hover{
-    text-decoration: none !important;
-    color: #000000 !important;
-
+a:hover{
+    color: #000000;
 }
+
+a{
+    text-decoration: none;
+}
+
 .btn{
     /* margin: auto !important; */
-    margin-bottom: 2.5px !important;
+    margin-bottom: 2.5px;
 }
 .del-acc-btn{
     width: 80%;
@@ -392,13 +395,15 @@ a, a:hover{
 .footerMenu{
     width: 200px;
     padding: 0;
+}
+
+a{
     color: white;
 }
 
 .footerMenu > ul:hover{
     font-size: 18px;
     text-decoration: underline;
-    color: black;
 }
 
 .socmed{
@@ -413,7 +418,6 @@ a, a:hover{
 
 .socmedImg:hover{
     border: solid white 2px;
-    height: 45px;
     transition: all ease 0.3s;
     cursor: pointer;
 }

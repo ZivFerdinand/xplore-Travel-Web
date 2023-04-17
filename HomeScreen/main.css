@@ -1,0 +1,452 @@
+.cointainer2{
+    height: 100vh;
+    width: 100vw;
+}
+
+.jumbotron{
+    height: 100vh;
+    width: 100vw;
+}
+
+.jumbotron.st{
+    background-image: url(../Assets/BG/homeJumbotron1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSlider{
+    background-image: url(../Assets/BG/homeSlider1.png);
+    animation-name: changeBG;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 10px;
+    margin-bottom: -5vw;
+    background-position: center;
+}
+
+.upper{
+    display: flex;
+    padding: 2vw;
+    width: 80vw;
+    height: 60vh;
+    align-items: center;
+}
+
+.pageDesc{
+    width: 50vw;
+    margin-top: 2vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTitle{
+    color: white;
+    font-size: 5.5vw;
+    font-weight: bold;
+}
+
+.mainDesc{
+    color: white;
+
+}
+
+.learnMore{
+    width: 15vw;
+    /* height: 40px; */
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: solid white 2px;
+    transition: all ease 0.3s;
+    font-family: Roboto;
+    font-style: italic;
+    margin-top: 5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.learnMore:hover{
+    background-color: rgba(217, 217, 217, 1);
+    transition: all ease 0.3s;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.imgCarousel{
+    margin: 0 2vw;
+}
+
+.subSlider{
+    width: 25vw;
+    height: 17vw;
+}
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 79, 81, 0.6);
+    width: 80vw;
+    height: 20vh;
+    backdrop-filter: blur(10px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 8px;
+}
+
+.subTitle{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.eventDay{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+}
+
+.eventBox{
+    display: flex;
+    width: 20vw;
+    height: 10vh;
+    background-color: rgba(51, 51, 51, 1);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    transition: background-color ease 0.3s;
+    cursor: default;
+}
+
+.eventBox:hover{
+    background-color: rgb(70, 70, 70);
+    transition: background-color ease 0.3s;
+}
+
+.eventName{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.date{
+    color: rgb(173, 171, 171);
+    margin-bottom: 0;
+}
+
+.jumbotron.nd{
+    background-image: url(../Assets/BG/homeJumbotron2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.viewMore{
+    border: solid white 2px;
+    border-radius: 5px;
+    width: 200px;
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transition: all ease 0.3s;
+}
+
+.viewMore:hover{
+    border: solid black 2px;
+    transition: all ease 0.3s;
+}
+
+.hotelDetails{
+    padding: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+}
+
+.hotelInfo{
+    margin-left: 70px;
+    width: 100vw;
+}
+
+.hotelName{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.desc > p{
+    margin-bottom: 0;
+}
+
+.desc{
+    display: flex;
+    align-items: center;
+}
+
+.starRating{
+    margin: 0px 10px;
+    height: 20px;
+}
+
+.price{
+    color: red;
+    margin: 0px 5px;
+    font-size: 20px;
+}
+
+.subMenu{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    gap: 1.5vw;
+    align-items: center;
+}
+
+.menuName{
+    color: rgba(247, 162, 2, 1);
+    margin-bottom: 0;
+}
+
+.triangle{
+    height: 15px;
+}
+
+.checkAvl, .searchBtn{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgba(247, 163, 2, 1);
+    border-radius: 20px;
+    font-family: Roboto;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+
+.checkAvl{
+    margin-right: 50px;
+    margin-left: 20px;
+    padding-top: 9px;
+    width: 35vw;
+    height: 45px;
+}
+
+.checkAvl:hover, .searchBtn:hover{
+    background-color: rgba(165, 108, 0, 1);
+    transition: all ease 0.3s;
+}
+
+.jumbotron.rd{
+    background-image: url(../Assets/BG/homeJumbotron3.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pageTitle{
+    border: solid rgba(249, 164, 61, 1) 1px;
+    width: 80vw;
+    height: 8vw;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(250, 175, 85, 1);
+    text-align: center;
+    padding-top: 2.2vw;
+    margin-bottom: 5vw;
+}
+
+.bookingPart{
+    display: flex;
+    width: 80vw;
+    gap: 3vw;
+}
+
+.bookBox{
+    width: 20vw;
+    border: solid white 2px;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 10px;
+    font-weight: 600;
+    height: 6vw;
+    transition: border ease 0.3s;
+    cursor: pointer;
+}
+
+.bookBox:hover{
+    border: solid rgba(246, 161, 57, 1) 2px;
+    transition: border ease 0.3s;
+}
+
+.menuTitle{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.placeCode{
+    display: flex;
+    gap: 7vw;
+}
+
+.place, .code{
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+.code{
+    width: 5vw;
+    background-color: black;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.bookBox.depart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.depart{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+
+.bookingDetails{
+    margin-top: 3vw;
+    display: flex;
+    gap: 7vw;
+}
+
+.searchBtn{
+    width: 15vw;
+    height: 3vw;
+    padding-top: 6px;
+    margin-top: 4vw;
+}
+
+.jumbotron.fth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fthTitle{
+    border: solid rgba(249, 164, 61, 1) 1px;
+    color: rgba(250, 175, 85, 1);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 5vw;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.bgSlider{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgSlider.st{
+    background-image: url(../Assets/BG/homeJumbotron3Slider1.png);
+}
+
+.bgSlider.nd{
+    background-image: url(../Assets/BG/homeJumbotron3Slider2.png);
+}
+
+.bgSlider.rd{
+    background-image: url(../Assets/BG/homeJumbotron3Slider3.png);
+}
+
+.inside{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lowerPart{
+    display: flex;
+    align-items: center;
+    margin-bottom: -3vw;
+}
+
+.arrowLR{
+    margin: 0px 1vw;
+    cursor: pointer;
+}
+
+.descBox{
+    background-color: rgba(247, 162, 2, 0.5);
+    width: 80vw;
+    padding: 12px;
+    justify-content: center;
+}
+
+.desc1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.desc2{
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+@keyframes changeBG{
+    30%{
+        background-image: url(../Assets/BG/homeSlider1.png);
+        background-position: center;
+    }
+    33%{
+        background-image: url(../Assets/BG/homeSlider2.png);
+        background-position: center;
+    }
+    65%{
+        background-image: url(../Assets/BG/homeSlider2.png);
+        background-position: center;
+    }
+    67%{
+        background-image: url(../Assets/BG/homeSlider3.png);
+        background-position: center;
+    }
+    98%{
+        background-image: url(../Assets/BG/homeSlider3.png);
+        background-position: center;
+    }
+    100%{
+        background-image: url(../Assets/BG/homeSlider1.png);
+        background-position: center;
+    }
+}
