@@ -75,6 +75,10 @@
     color: white;
 }
 
+.icon{
+    width: 3vw;
+}
+
 .learnMore:hover{
     background-color: rgba(217, 217, 217, 1);
     transition: all ease 0.3s;
@@ -89,12 +93,34 @@
 }
 
 .imgCarousel{
+    width: 20vw;
     margin: 0 2vw;
 }
 
+.subImgs{
+    width: 20vw;
+}
+
 .subSlider{
-    width: 25vw;
-    height: 17vw;
+    width: 20vw;
+    height: 13vw;
+}
+
+.subSlider.top{
+    margin-left: 0.45vw;
+    margin-bottom: -8vw;
+    width: 19vw;
+}
+
+.subSlider.mid{
+    position: relative;
+}
+
+.subSlider.btm{
+    margin-left: 0.45vw;
+    margin-top: -8vw;
+    z-index: 0;
+    width: 19vw;
 }
 
 .lower{
@@ -266,7 +292,7 @@
     border: solid rgba(249, 164, 61, 1) 1px;
     width: 80vw;
     height: 8vw;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: bold;
     color: rgba(250, 175, 85, 1);
     text-align: center;
@@ -284,7 +310,7 @@
     width: 20vw;
     border: solid white 2px;
     background-color: rgba(217, 217, 217, 0.5);
-    padding: 10px;
+    padding: 0.8vw;
     font-weight: 600;
     height: 6vw;
     transition: border ease 0.3s;
@@ -298,7 +324,7 @@
 
 .menuTitle{
     color: white;
-    font-size: 12px;
+    font-size: 0.8vw;
     margin-bottom: 0;
 }
 
@@ -309,8 +335,8 @@
 
 .place, .code{
     color: white;
-    font-size: 20px;
-    margin-left: 8px;
+    font-size: 1.5vw;
+    margin-left: 0.6vw;
     margin-bottom: 0;
 }
 
@@ -330,9 +356,9 @@
 
 .depart{
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-bottom: 0;
-    margin-right: 15px;
+    margin-right: 1vw;
 }
 
 .bookingDetails{
@@ -344,8 +370,9 @@
 .searchBtn{
     width: 15vw;
     height: 3vw;
-    padding-top: 6px;
+    padding-top: 0.4vw;
     margin-top: 4vw;
+    font-size: 1.5vw;
 }
 
 .jumbotron.fth{
@@ -361,7 +388,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     width: 60vw;
     height: 5vw;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
     padding-top: 6px;
@@ -422,14 +449,14 @@
 .descBox{
     background-color: rgba(247, 162, 2, 0.5);
     width: 80vw;
-    padding: 12px;
+    padding: 1vw;
     justify-content: center;
 }
 
 .desc1{
     color: white;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-bottom: 0;
 }
 

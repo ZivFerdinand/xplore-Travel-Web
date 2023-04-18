@@ -32,7 +32,7 @@ exp.addEventListener("mouseenter", () => {
 exp.addEventListener("mouseleave", resetPos);
 
 
-var indexValue = 1;
+var indexValue = 0;
 showImg(indexValue);
 bgSlider(indexValue);
 
@@ -46,7 +46,7 @@ function bgSlider(e){
 
 function showImg(e){
     var i;
-    const img = document.getElementsByClassName("subSlider");
+    const img = document.getElementsByClassName("subImgs");
     if(e > img.length){
         indexValue = 1;
     } else if(e < 1){

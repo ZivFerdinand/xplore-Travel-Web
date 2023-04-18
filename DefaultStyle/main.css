@@ -368,7 +368,7 @@ a{
 /* Footer */
 .footer{
     background-image: url(../Assets/BG/footerBG.png);
-    padding-top: 20px;
+    padding-top: 2vw;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -386,6 +386,10 @@ a{
     align-items: center;
 }
 
+.appLogo{
+    width: 20vw;
+}
+
 .download{
     display: flex;
     flex-direction: column;
@@ -394,13 +398,13 @@ a{
 
 .downloadText{
     color: white;
-    font-size: 25px;
+    font-size: 1.8vw;
 }
 
 .downloadImg{
     opacity: 0.6;
-    width: 200px;
-    margin-bottom: 20px;
+    width: 16vw;
+    margin-bottom: 1.2vw;
 }
 
 .downloadImg:hover{
@@ -409,7 +413,7 @@ a{
 }
 
 .footerMenu{
-    width: 200px;
+    width: 15vw;
     padding: 0;
 }
 
@@ -418,19 +422,23 @@ a{
     color: white;
 }
 
+.footerMenu > ul{
+    font-size: 1.3vw;
+}
+
 .footerMenu > ul:hover{
-    font-size: 18px;
+    font-size: 1.4vw;
     text-decoration: underline;
 }
 
 .socmed{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.7vw;
 }
 
 .socmedImg{
-    height: 40px;
+    height: 3.3vw;
 }
 
 .socmedImg:hover{
@@ -440,11 +448,12 @@ a{
 }
 
 .copyright{
+    font-size: 1.3vw;
     width: 90vw;
-    margin-top: 20px;
+    margin-top: 1.5vw;
     margin-bottom: 0px;
-    padding-top: 8px;
-    height: 50px;
+    padding-top: 0.5vw;
+    height: 3.7vw;
     border-top: solid white 4px;
     text-align: center;
     color: white;
