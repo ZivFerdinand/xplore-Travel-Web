@@ -361,6 +361,9 @@ a{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .innerFooter{
