@@ -30,3 +30,44 @@ exp.addEventListener("mouseenter", () => {
 	resetClass();
 });
 exp.addEventListener("mouseleave", resetPos);
+
+
+var indexValue = 0;
+showImg(indexValue);
+bgSlider(indexValue);
+
+function slider(e){
+    showImg(indexValue += e);
+}
+
+function bgSlider(e){
+	showBg(indexValue += e);
+}
+
+function showImg(e){
+    var i;
+    const img = document.getElementsByClassName("subImgs");
+    if(e > img.length){
+        indexValue = 1;
+    } else if(e < 1){
+        indexValue = img.length;
+    }
+    for(i = 0; i < img.length; i++){
+        img[i].style.display = "none";
+    }
+    img[indexValue - 1].style.display = "block";
+}
+
+function showBg(e){
+	var i;
+    const img = document.getElementsByClassName("bgSlider");
+    if(e > img.length){
+        indexValue = 1;
+    } else if(e < 1){
+        indexValue = img.length;
+    }
+    for(i = 0; i < img.length; i++){
+        img[i].style.display = "none";
+    }
+    img[indexValue - 1].style.display = "block";
+}
