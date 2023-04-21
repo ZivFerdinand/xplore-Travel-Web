@@ -1,15 +1,30 @@
 body {
   background-color: #eee;
 }
-
-div.stars {
-  width: 270px;
-
-  display: inline-block;
+.container2{
+    width: 100vw;
+    height: auto;
+}
+.bottom{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.rateUs{
+    width: 100%;
+}
+.rateUs img{
+    width: 100%;
 }
 
-.mt-200 {
-  margin-top: 200px;
+.containerStar{
+    padding-right: 9%;
+}
+
+div.stars {
+  width: 100%;
+  /* display: inline-block; */
 }
 
 input.star {
@@ -19,11 +34,11 @@ input.star {
 label.star {
   float: right;
 
-  padding: 10px;
+  padding: 1vw;
 
-  font-size: 36px;
+  font-size: 3.5vw;
 
-  color: #4a148c;
+  color: #c7c7c7;
 
   transition: all 0.2s;
 }
