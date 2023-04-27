@@ -178,40 +178,107 @@ label.star:before {
 
 /* search bar */
 .mid {
-  margin: 50px 100px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column-reverse;
+  position: relative;
+  margin-bottom: 20vh;
+}
+.row-line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+  align-items: center;
+}
+.row-line h1 {
+  color: #f9a43d;
+  font-size: 4vw;
+  font-weight: bolder;
+  text-align: end;
+  transition: all 0.3s ease-in-out;
+}
+.row-line hr {
+  width: 20%;
+}
+.questionMark {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: auto;
+  z-index: 0;
+  margin-right: 1vw;
+}
+.questionMark img {
+  width: 14vw;
+}
+.searchBar {
+  margin-top: 1%;
+  margin-right: 15vw;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  position: relative;
+}
+.bulet {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  height: 100px;
-  padding: 0;
 }
-#search::placeholder {
+.contactUs {
+  margin-left: 3vw;
+  padding: 1vw;
+  display: flex;
+  height: 3.9vw;
+  width: auto;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9a43d;
+  position: relative;
+}
+.contactUs:hover {
+  background-color: #d48c00;
+}
+.contactUs img {
+  margin-right: 0.5vw;
+  width: 2.5vw;
+}
+.contactUs p {
+  margin: 0.2vw;
+  font-size: 2vw;
+  color: white;
+}
+
+.search::placeholder {
   opacity: 0;
   color: #dfdddd;
 }
 input[type="text"] {
-  height: 60px;
-  font-size: 30px;
+  height: 3.9vw;
+  font-size: 1.5vw;
   display: inline-block;
   border: none;
   outline: none;
   color: white;
   /* padding-right: 60px; */
-  width: 60px;
-  padding-left: 30px;
+  width: 3.9vw;
+  padding-left: 2vw;
   position: absolute;
   background-color: orange;
   background-image: url(../Assets/Icon/search.png);
   background-repeat: no-repeat;
-  background-position: 50% 10px;
-  background-size: 36px;
-  border-radius: 30px;
+  background-position: 50% 0.75vw;
+  background-size: 2.3vw;
+  border-radius: 3vw;
   z-index: 3;
   transition: width 1s cubic-bezier(0, 0.795, 0, 1);
   cursor: pointer;
 }
 
-#search:focus::placeholder {
+.search:focus::placeholder {
   opacity: 1;
 }
 
@@ -220,20 +287,20 @@ input[type="text"]:focus:hover {
 }
 
 input[type="text"]:focus {
-  width: 700px;
+  width: 50vw;
   z-index: 1;
   background-image: none;
   border-bottom: 1px solid #bbb;
   cursor: text;
 }
 input[type="submit"] {
-  height: 67px;
-  width: 63px;
+  height: 4vw;
+  width: 4vw;
   display: inline-block;
   color: white;
   background: url(../Assets/Icon/search.png) center center no-repeat;
-  background-position: 50% 10px;
-  background-size: 36px;
+  background-position: 50% 0.75vw;
+  background-size: 2.3vw;
   text-indent: -10000px;
   border: none;
   position: absolute;
