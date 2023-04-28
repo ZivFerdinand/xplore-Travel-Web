@@ -5,25 +5,26 @@ body {
 .top {
   width: 100vw;
   height: 100vh;
-  display: grid;
+  display: flex;
+  flex-direction: row;
 }
 
 .HeaderSide {
   width: 40vw;
   height: 100vh;
-  grid-column: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .HeaderSide img {
-  margin-top: 200px;
-  margin-left: 210px;
-  margin-bottom: 20px;
-  /* width: 200px;
-  height: 200px; */
+  margin-top: 30vh;
+  margin-left: 14vw;
+  margin-bottom: 2vh;
+  width: 10vw;
+  height: auto;
 }
 
 .HeaderSide h1 {
-  margin-top: 0px;
   color: #f9a43d;
   font-size: 6vw;
   /* width: 20px; */
@@ -39,9 +40,8 @@ hr {
 }
 
 .QuestionSide {
-  width: 60vw;
-  height: 100vh;
-  grid-column: 2;
+  width: 100%;
+  height: auto;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -50,25 +50,24 @@ hr {
 .QuestionBox {
   background-color: #fabb6f;
   width: 80%;
-  height: 70%;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px #cecece;
+  height: auto;
+  border-radius: 1vw;
+  box-shadow: 0px 0px 1vw #cecece;
+  padding: 2.5vw;
 }
 
 .QuestionBox h1 {
   color: black;
-  font-size: 35px;
+  font-size: 2vw;
   opacity: 100%;
   font-weight: bold;
-  margin-top: 40px;
-  margin-left: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 2vw;
 }
 
 .QuestionBox p {
-  margin: 5px;
-  margin-left: 100px;
-  font-size: 22.5px;
+  margin: 1vw;
+  margin-left: 2vw;
+  font-size: 1.5vw;
   font-weight: 500;
   color: black;
 }
@@ -81,17 +80,16 @@ hr {
 .QuestionBox hr {
   border: 0.5px solid #ffffff;
   opacity: 80%;
-  width: 75%;
-  margin-left: 100px;
+  width: 90%;
+  margin-left: 2vw;
 }
 
 .QuestionBox h2 {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 550;
   letter-spacing: 1px;
   color: #8b6419;
-  margin-left: 60px;
-  margin-top: 20px;
+  margin-top: 2vw;
 }
 
 .QuestionBox h2:hover {
@@ -191,13 +189,15 @@ label.star:before {
   justify-content: end;
   position: relative;
   align-items: center;
+  transition: all 0.5s ease-in-out;
 }
 .row-line h1 {
   color: #f9a43d;
   font-size: 4vw;
   font-weight: bolder;
   text-align: end;
-  transition: all 0.3s ease-in-out;
+  transform-origin: -0.5vw 25vw;
+  transition: all 0.5s ease-in-out;
 }
 .row-line hr {
   width: 20%;
@@ -209,9 +209,12 @@ label.star:before {
   height: auto;
   z-index: 0;
   margin-right: 1vw;
+  transition: all 0.5s ease-in-out;
 }
 .questionMark img {
   width: 14vw;
+  transform-origin: 0.5vw 20vw;
+  transition: all 0.5s ease-in-out;
 }
 .searchBar {
   margin-top: 1%;
@@ -233,7 +236,7 @@ label.star:before {
   height: 3.9vw;
   width: auto;
   border: none;
-  border-radius: 10px;
+  border-radius: 1vw;
   align-items: center;
   justify-content: center;
   background-color: #f9a43d;
@@ -251,7 +254,9 @@ label.star:before {
   font-size: 2vw;
   color: white;
 }
-
+.search:hover {
+  background-color: #d48c00;
+}
 .search::placeholder {
   opacity: 0;
   color: #dfdddd;
@@ -285,14 +290,6 @@ input[type="text"] {
 input[type="text"]:focus:hover {
   border-bottom: 1px solid #bbb;
 }
-
-input[type="text"]:focus {
-  width: 50vw;
-  z-index: 1;
-  background-image: none;
-  border-bottom: 1px solid #bbb;
-  cursor: text;
-}
 input[type="submit"] {
   height: 4vw;
   width: 4vw;
@@ -315,4 +312,12 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   opacity: 1;
+}
+
+.search.extended {
+  width: 50vw;
+  z-index: 1;
+  background-image: none;
+  border-bottom: 1px solid #bbb;
+  cursor: text;
 }
