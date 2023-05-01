@@ -53,10 +53,12 @@
     color: white;
     font-size: 5.5vw;
     font-weight: bold;
+    text-shadow: black 1px 2px 5px;
 }
 
 .mainDesc{
     color: white;
+    text-shadow: black 1px 2px 3px;
 }
 
 .learnMore{
