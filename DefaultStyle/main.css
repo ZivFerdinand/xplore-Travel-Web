@@ -223,14 +223,17 @@ nav{
     background-position: center;
 }
 
-a, a:hover{
-    text-decoration: none !important;
-    color: #000000 !important;
-
+a:hover{
+    color: #000000;
 }
+
+a{
+    text-decoration: none;
+}
+
 .btn{
     /* margin: auto !important; */
-    margin-bottom: 2.5px !important;
+    margin-bottom: 2.5px;
 }
 .del-acc-btn{
     width: 80%;
@@ -253,9 +256,17 @@ a, a:hover{
     text-align: center;
 
     color: #000000 !important;
-
+    text-decoration: none !important;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     transition: .5s;
+}
+.del-acc-btn a, .del-acc-btn a:visited {
+    color: black;
+    text-decoration: none !important;
+}
+.del-acc-btn:visited{
+    
+    text-decoration: none !important;
 }
 .del-acc-btn:hover{
     background-color: #792d27;
@@ -276,7 +287,7 @@ a, a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-y: scroll;
+    overflow-y: hidden;
     height: fit-content;
 }
 .language-area{
@@ -303,6 +314,7 @@ a, a:hover{
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    text-decoration: none !important;
     transition: .5s ;
 }
 .language-area-2:hover{
@@ -317,10 +329,14 @@ a, a:hover{
     display: flex;
     align-items: center;
     text-align: left;
+    text-decoration: none !important;
 
     color: #000000;
 }
-.to-Change{
+.main-TL:visited{
+    text-decoration: none !important;
+}
+.to-Change, .to-Change2{
     border-radius: 5px;
     width: 25%;
     height: 100%;
@@ -336,8 +352,10 @@ a, a:hover{
     text-align: center;
     padding: auto;
     color: #000000;
+    transition: .5s;
 }
-.to-Change:hover{
+.to-Change:hover, .to-Change2:hover{
+    background-color: #F6A139 !important;
     cursor: pointer;
 }
 .offcanvas{
@@ -352,12 +370,15 @@ a, a:hover{
 /* Footer */
 .footer{
     background-image: url(../Assets/BG/footerBG.png);
-    padding-top: 20px;
+    padding-top: 2vw;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .innerFooter{
@@ -365,6 +386,10 @@ a, a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.appLogo{
+    width: 20vw;
 }
 
 .download{
@@ -375,13 +400,13 @@ a, a:hover{
 
 .downloadText{
     color: white;
-    font-size: 25px;
+    font-size: 1.8vw;
 }
 
 .downloadImg{
     opacity: 0.6;
-    width: 200px;
-    margin-bottom: 20px;
+    width: 16vw;
+    margin-bottom: 1.2vw;
 }
 
 .downloadImg:hover{
@@ -390,40 +415,47 @@ a, a:hover{
 }
 
 .footerMenu{
-    width: 200px;
+    width: 15vw;
     padding: 0;
+}
+
+a{
+    transition: .3s;
     color: white;
 }
 
+.footerMenu > ul{
+    font-size: 1.3vw;
+}
+
 .footerMenu > ul:hover{
-    font-size: 18px;
+    font-size: 1.4vw;
     text-decoration: underline;
-    color: black;
 }
 
 .socmed{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.7vw;
 }
 
 .socmedImg{
-    height: 40px;
+    height: 3.3vw;
 }
 
 .socmedImg:hover{
     border: solid white 2px;
-    height: 45px;
     transition: all ease 0.3s;
     cursor: pointer;
 }
 
 .copyright{
+    font-size: 1.3vw;
     width: 90vw;
-    margin-top: 20px;
+    margin-top: 1.5vw;
     margin-bottom: 0px;
-    padding-top: 8px;
-    height: 50px;
+    padding-top: 0.5vw;
+    height: 3.7vw;
     border-top: solid white 4px;
     text-align: center;
     color: white;

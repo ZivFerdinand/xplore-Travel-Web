@@ -7,15 +7,16 @@
     <title>xplore Home</title>
     
     <link data-n-head="true" rel="icon" type="image/x-icon" href="Assets/Logo/xplore_Logo.svg">
-    <link rel="stylesheet" href="DefaultStyle/main.css">
-    <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="DefaultStyle/main.css">
+    <link rel="stylesheet" href="HomeScreen/main.css">
 </head>
 <body>
     <section>
         <nav>
             <div class="nav-left-area">
-                <img src="Assets/Logo/xplore_Logo_2.svg">
+                <a href="#"><img src="Assets/Logo/xplore_Logo_2.svg"></a>
+                
                 <div class="menu">
                     <div class="choices">
                         <div >
@@ -63,13 +64,13 @@
             <div class="language-area hide">
                 <img src="Assets/Logo/currency.svg">
                 <div class="main-TL">Currency</div>
-                <div class="to-Change">SGD</div>
+                <div class="to-Change2">SGD</div>
             </div>
             <div class="line-create">
 
             </div>
 
-            <a class="language-area-2" href="HomeScreen/index.html">
+            <a class="language-area-2" href="index.html">
                 <img src="Assets/Logo/home.svg">
                 <div class="main-TL">Home</div>
             </a>
@@ -154,6 +155,208 @@
             </div>
         </div>
     </div>
+
+    <div class="container2">
+        <div class="jumbotron st">
+            <div class="imgSlider">
+                <div class="upper">
+                    <div class="pageDesc">
+                        <h1 class="mainTitle">Borobudur</h1>
+                        <p class="mainDesc">Place which contains thousand history of Buddhism in Nusantara. <br>
+                            One of the greatest heritage that has been found after hundred years <br>
+                            burried underneath.
+                        </p>
+                        <a class="learnMore" href="#">Learn More</a>
+                    </div>
+                    <div class="arrow">
+                        <img onclick="slider(-1)" class="arrowImg" src="Assets/Icon/arrowUp.png" alt="">
+                        <img onclick="slider(1)" class="arrowImg" src="Assets/Icon/arrowDown.png" alt="">
+                    </div>
+                    <div class="imgCarousel">
+                        <div class="subImgs">
+                            <img class="subSlider top" src="Assets/BG/homeSubSlider1.png" alt="">
+                            <img class="subSlider mid" src="Assets/BG/homeSubSlider2.png" alt="">
+                            <img class="subSlider btm" src="Assets/BG/homeSubSlider3.png" alt="">
+                        </div>
+                        <div class="subImgs">
+                            <img class="subSlider top" src="Assets/BG/homeSubSlider2.png" alt="">
+                            <img class="subSlider mid" src="Assets/BG/homeSubSlider3.png" alt="">
+                            <img class="subSlider btm" src="Assets/BG/homeSubSlider1.png" alt="">
+                        </div>
+                        <div class="subImgs">
+                            <img class="subSlider top" src="Assets/BG/homeSubSlider3.png" alt="">
+                            <img class="subSlider mid" src="Assets/BG/homeSubSlider1.png" alt="">
+                            <img class="subSlider btm" src="Assets/BG/homeSubSlider2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <h2 class="subTitle">EVENTS</h2>
+                    <div class="eventDay">
+                        <div class="eventBox">
+                            <p class="eventName">Vesak Festival <br> at Borobudur</p>
+                            <p class="date">Sat, May 6</p>
+                        </div>
+                        <div class="eventBox">
+                            <p class="eventName">Vesak Day Festival</p>
+                            <p class="date">Mon, May 8</p>
+                        </div>
+                        <div class="eventBox">
+                            <p class="eventName">Magnificent Celebration <br> of Vesak Day</p>
+                            <p class="date">Wed, May 10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron nd">
+            <img class="viewMore" src="Assets/Icon/viewMorePic.png" alt="">
+            <div class="hotelDetails">
+                <div class="hotelInfo">
+                    <h1 class="hotelName">Livingstone Lodge</h1>
+                    <div class="desc">
+                        <p>Bali, Indonesia</p>
+                        <img class="starRating" src="Assets/Icon/hotelStar.png" alt="">
+                        <p>From </p>
+                        <p class="price"> $100 </p>
+                        <p>/ night</p>
+                    </div>
+                </div>
+                <div class="subMenu">
+                    <img class="icon" src="Assets/Icon/orangeCalender.png" alt="">
+                    <p class="menuName">DATE</p>
+                    <img class="triangle" src="Assets/Icon/downTriangle.png" alt="">
+                </div>
+                <div class="subMenu">
+                    <img class="icon" src="Assets/Icon/orangeUsers.png" alt="">
+                    <p class="menuName">GUEST</p>
+                    <img class="triangle" src="Assets/Icon/downTriangle.png" alt="">
+                </div>
+                <a class="checkAvl" href="BuyHotel/main.html">Check Availability</a>
+            </div>
+        </div>
+
+        <div class="jumbotron rd">
+            <h1 class="pageTitle">AN INVITATION TO ESCAPE</h1>
+            <div class="bookingPart">
+                <div class="bookBox">
+                    <p class="menuTitle">FROM</p>
+                    <div class="placeCode">
+                        <p class="place">Jakarta</p>
+                        <p class="code">CGK</p>
+                    </div>
+                </div>
+                <div class="bookBox">
+                    <p class="menuTitle">TO</p>
+                    <div class="placeCode">
+                        <p class="place">Batam</p>
+                        <p class="code">BTH</p>
+                    </div>
+                </div>
+                <div class="bookBox depart">
+                    <p class="depart">Depart Date</p>
+                    <img class="icon" src="Assets/Icon/whiteCalender.png" alt="">
+                </div>
+            </div>
+            <div class="bookingDetails">
+                <div class="bookBox dtl">
+                    <p class="menuTitle">CLASS</p>
+                    <p class="place">Economy</p>
+                </div>
+                <div class="bookBox dtl">
+                    <p class="menuTitle">PASSENGERS</p>
+                    <p class="place">1 Adult(s)</p>
+                </div>
+            </div>
+            <a class="searchBtn" href="BuyFlight/main.html">Search</a>
+        </div>
+
+        <div class="jumbotron fth">
+            <div class="bgSlider st">
+                <div class="inside">
+                    <h1 class="fthTitle">OUR CARES</h1>
+                    <div class="imgBg">
+                    </div>
+                    <div class="lowerPart">
+                        <div class="descBox">
+                            <p class="desc1">Validity extension of miles, membership tiers, and rewards</p>
+                            <p class="desc2">Learn about our membership throughout covid-19</p>
+                        </div>
+                        <div class="arrowJmb3">
+                            <img onclick="bgSlider(-1)" class="arrowLR" src="Assets/Icon/arrowLeft.png" alt="">
+                            <img onclick="bgSlider(1)" class="arrowLR" src="Assets/Icon/arrowRight.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bgSlider nd">
+                <div class="inside">
+                    <h1 class="fthTitle">OUR CARES</h1>
+                    <div class="imgBg">
+                    </div>
+                    <div class="lowerPart">
+                        <div class="descBox">
+                            <p class="desc1">GET EXTENSIVE AND IMMERSIVE EXPERIENCE WITH US</p>
+                            <p class="desc2">Unlike others, our service known as the best at its class</p>
+                        </div>
+                        <div class="arrowJmb3">
+                            <img onclick="bgSlider(-1)" class="arrowLR" src="Assets/Icon/arrowLeft.png" alt="">
+                            <img onclick="bgSlider(1)" class="arrowLR" src="Assets/Icon/arrowRight.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bgSlider rd">
+                <div class="inside">
+                    <h1 class="fthTitle">OUR CARES</h1>
+                    <div class="imgBg">
+                    </div>
+                    <div class="lowerPart">
+                        <div class="descBox">
+                            <p class="desc1">With various food from the other parts of the world</p>
+                            <p class="desc2">Taste the uniqueness of the world</p>
+                        </div>
+                        <div class="arrowJmb3">
+                            <img onclick="bgSlider(-1)" class="arrowLR" src="Assets/Icon/arrowLeft.png" alt="">
+                            <img onclick="bgSlider(1)" class="arrowLR" src="Assets/Icon/arrowRight.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="innerFooter">
+            <a href="#"><img class="appLogo" src="Assets/Logo/xplore_Logo_2.svg" alt=""></a>
+    
+            <div class="footerMenu">
+                <ul><a href="#">HOW TO BOOK</a></ul>
+                <ul><a href="#">CONTACT US</a></ul>
+                <ul><a href="HelpScreen/main.html">HELP CENTER</a></ul>
+                <ul><a href="AboutUsScreen/main.html">ABOUT US</a></ul>
+            </div>
+    
+            <div class="download">
+                <p class="downloadText">DOWNLOAD APP</p>
+                <img class="downloadImg" src="Assets/Icon/appStoreDld.png" alt="">
+                <img class="downloadImg" src="Assets/Icon/googlePlayDld.png" alt="">
+            </div>
+    
+            <div class="socmed">
+                <img class="socmedImg" src="Assets/Icon/twitter.png" alt="">
+                <img class="socmedImg" src="Assets/Icon/facebook.png" alt="">
+                <img class="socmedImg" src="Assets/Icon/tiktok.png" alt="">
+                <img class="socmedImg" src="Assets/Icon/instagram.png" alt="">
+            </div>
+        </div>
+
+        <p class="copyright">Copyright © xplore, Inc. All Rights Reserved.</p>
+    </div>
+
     <script src="DefaultStyle/main.js"></script>
     <script src="HomeScreen/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
