@@ -336,7 +336,7 @@ a{
 .main-TL:visited{
     text-decoration: none !important;
 }
-.to-Change{
+.to-Change, .to-Change2{
     border-radius: 5px;
     width: 25%;
     height: 100%;
@@ -352,8 +352,10 @@ a{
     text-align: center;
     padding: auto;
     color: #000000;
+    transition: .5s;
 }
-.to-Change:hover{
+.to-Change:hover, .to-Change2:hover{
+    background-color: #F6A139 !important;
     cursor: pointer;
 }
 .offcanvas{
